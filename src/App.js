@@ -34,7 +34,7 @@ class App extends Component {
     <div className="App">
       <header className="intro">
         <h1>Porkola-Pipola-Boris</h1>
-        <p>Opazuj rast pora Borisa</p>
+        <p>Opazuj rast pora Borisa.</p>
       <div className="App-header">
         {
           contents.map(element => <div className="container"><img className="photo" src={`/img/${element}`} alt={`${element}`} key={`${element}`} /></div>)
